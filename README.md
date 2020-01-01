@@ -1,3 +1,1 @@
-# C++
-
-## Exercises in C++ 🔧
+# C++ exercises in XCode 🔨
