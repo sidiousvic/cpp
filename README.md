@@ -1,1 +1,3 @@
-# cpp
+# C++
+
+## Exercises in C++ 🔧

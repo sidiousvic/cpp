@@ -7,9 +7,23 @@
 //
 
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+int main() {
+    int height  = 20;
+    int width = 20;
+    for(int y = 0; y <= height; y ++) {
+        cout << "\n";
+        for(int x = 0; x <= width; x++) {
+            // borders
+            if (y == 0 || y == height) cout << "🚧";
+            else if (x == 0 || x == width) cout << "🚧";
+            // bolt
+            else if (x + y == width / 2) cout << "⚡️";
+            else if (y == height / 2) cout << "⚡️";
+            else if (y >= height / 2 && x + (y - height / 2) == width) cout << "⚡️";
+            else cout << "⛓";
+        }
+    }
+    cout << "\n";
     return 0;
 }

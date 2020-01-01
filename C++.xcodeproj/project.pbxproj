@@ -8,10 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		B76DF69E23BC3AC40053BBDC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B76DF69D23BC3AC40053BBDC /* main.cpp */; };
+		B76DF6AB23BC3AD40053BBDC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B76DF6AA23BC3AD40053BBDC /* main.cpp */; };
+		B76DF6B623BC65560053BBDC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B76DF6B523BC65560053BBDC /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B76DF69823BC3AC40053BBDC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B76DF6A623BC3AD40053BBDC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B76DF6B123BC65560053BBDC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +45,28 @@
 /* Begin PBXFileReference section */
 		B76DF69A23BC3AC40053BBDC /* C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76DF69D23BC3AC40053BBDC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B76DF6A823BC3AD40053BBDC /* bolt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bolt; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76DF6AA23BC3AD40053BBDC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B76DF6B323BC65560053BBDC /* bookstore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bookstore; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76DF6B523BC65560053BBDC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B76DF69723BC3AC40053BBDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76DF6A523BC3AD40053BBDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76DF6B023BC65560053BBDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				B76DF69C23BC3AC40053BBDC /* C++ */,
+				B76DF6A923BC3AD40053BBDC /* bolt */,
+				B76DF6B423BC65560053BBDC /* bookstore */,
 				B76DF69B23BC3AC40053BBDC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				B76DF69A23BC3AC40053BBDC /* C++ */,
+				B76DF6A823BC3AD40053BBDC /* bolt */,
+				B76DF6B323BC65560053BBDC /* bookstore */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +102,22 @@
 				B76DF69D23BC3AC40053BBDC /* main.cpp */,
 			);
 			path = "C++";
+			sourceTree = "<group>";
+		};
+		B76DF6A923BC3AD40053BBDC /* bolt */ = {
+			isa = PBXGroup;
+			children = (
+				B76DF6AA23BC3AD40053BBDC /* main.cpp */,
+			);
+			path = bolt;
+			sourceTree = "<group>";
+		};
+		B76DF6B423BC65560053BBDC /* bookstore */ = {
+			isa = PBXGroup;
+			children = (
+				B76DF6B523BC65560053BBDC /* main.cpp */,
+			);
+			path = bookstore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +140,40 @@
 			productReference = B76DF69A23BC3AC40053BBDC /* C++ */;
 			productType = "com.apple.product-type.tool";
 		};
+		B76DF6A723BC3AD40053BBDC /* bolt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76DF6AC23BC3AD40053BBDC /* Build configuration list for PBXNativeTarget "bolt" */;
+			buildPhases = (
+				B76DF6A423BC3AD40053BBDC /* Sources */,
+				B76DF6A523BC3AD40053BBDC /* Frameworks */,
+				B76DF6A623BC3AD40053BBDC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bolt;
+			productName = bolt;
+			productReference = B76DF6A823BC3AD40053BBDC /* bolt */;
+			productType = "com.apple.product-type.tool";
+		};
+		B76DF6B223BC65560053BBDC /* bookstore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76DF6B723BC65560053BBDC /* Build configuration list for PBXNativeTarget "bookstore" */;
+			buildPhases = (
+				B76DF6AF23BC65560053BBDC /* Sources */,
+				B76DF6B023BC65560053BBDC /* Frameworks */,
+				B76DF6B123BC65560053BBDC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bookstore;
+			productName = bookstore;
+			productReference = B76DF6B323BC65560053BBDC /* bookstore */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +184,12 @@
 				ORGANIZATIONNAME = SIDIOUSVIC;
 				TargetAttributes = {
 					B76DF69923BC3AC40053BBDC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					B76DF6A723BC3AD40053BBDC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					B76DF6B223BC65560053BBDC = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
@@ -109,6 +207,8 @@
 			projectRoot = "";
 			targets = (
 				B76DF69923BC3AC40053BBDC /* C++ */,
+				B76DF6A723BC3AD40053BBDC /* bolt */,
+				B76DF6B223BC65560053BBDC /* bookstore */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +219,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				B76DF69E23BC3AC40053BBDC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76DF6A423BC3AD40053BBDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76DF6AB23BC3AD40053BBDC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76DF6AF23BC65560053BBDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76DF6B623BC65560053BBDC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +368,38 @@
 			};
 			name = Release;
 		};
+		B76DF6AD23BC3AD40053BBDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B76DF6AE23BC3AD40053BBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B76DF6B823BC65560053BBDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B76DF6B923BC65560053BBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -269,6 +417,24 @@
 			buildConfigurations = (
 				B76DF6A223BC3AC40053BBDC /* Debug */,
 				B76DF6A323BC3AC40053BBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76DF6AC23BC3AD40053BBDC /* Build configuration list for PBXNativeTarget "bolt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76DF6AD23BC3AD40053BBDC /* Debug */,
+				B76DF6AE23BC3AD40053BBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76DF6B723BC65560053BBDC /* Build configuration list for PBXNativeTarget "bookstore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76DF6B823BC65560053BBDC /* Debug */,
+				B76DF6B923BC65560053BBDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
