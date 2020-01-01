@@ -212,6 +212,7 @@
 		B76DF6BA23BCC9770053BBDC /* C++ Primer 5th Edition */ = {
 			isa = PBXGroup;
 			children = (
+				B7A934CE23BCD4D000CC15EE /* Chapter 2 */,
 				B76DF6C623BCCAD30053BBDC /* Chapter 1 */,
 			);
 			path = "C++ Primer 5th Edition";
@@ -276,6 +277,13 @@
 				B7A934C923BCD25E00CC15EE /* main.cpp */,
 			);
 			path = 1.5;
+			sourceTree = "<group>";
+		};
+		B7A934CE23BCD4D000CC15EE /* Chapter 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Chapter 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
