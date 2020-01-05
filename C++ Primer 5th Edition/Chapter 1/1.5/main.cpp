@@ -5,6 +5,8 @@
 //  Created by VIC SIDIOUS on 2020/01/01.
 //  Copyright © 2020 SIDIOUSVIC. All rights reserved.
 //
+//Exercise 1.5: We wrote the output in one large statement. Rewrite the
+//program to use a separate statement to print each operand.
 
 #include <iostream>
 int main()

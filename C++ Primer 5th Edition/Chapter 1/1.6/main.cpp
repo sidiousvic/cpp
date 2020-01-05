@@ -5,6 +5,8 @@
 //  Created by VIC SIDIOUS on 2020/01/01.
 //  Copyright © 2020 SIDIOUSVIC. All rights reserved.
 //
+//Exercise 1.6: Explain whether the following program fragment is legal.
+
 
 #include <iostream>
 
