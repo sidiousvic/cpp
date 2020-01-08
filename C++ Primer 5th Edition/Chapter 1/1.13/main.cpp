@@ -11,7 +11,7 @@
 using namespace std;
 
 int main() {
-    // Exercise 1.9: Write a program that uses a while to sum the numbers from 50 to 100.
+    // from exercise 1.9: Write a program that uses a while to sum the numbers from 50 to 100.
     cout << "Exercise 1.9" << endl << "⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬" << endl;
     int sum = 0;
     for (int i = 50; i <= 100; i++) {
@@ -19,7 +19,7 @@ int main() {
     }
     cout << "The sum of 50 to 100 inclusive is " << sum << endl << endl;
 
-    //  Exercise 1.10: Use the decrement operator (--) to write a program that prints the numbers from ten down to zero.
+    // from exercise 1.10: Use the decrement operator (--) to write a program that prints the numbers from ten down to zero.
     cout << "Exercise 1.10" << endl << "⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬" << endl;
     for(int i = 10; i >= 1; i--) {
         cout << i << endl;
@@ -27,7 +27,7 @@ int main() {
     
     cout << endl;
     
-    // Exercise 1.11: Write a program that prompts the user for two integers. Print each number in the range specified by those two integers.
+    // from exercise 1.11: Write a program that prompts the user for two integers. Print each number in the range specified by those two integers.
     cout << "Exercise 1.11" << endl << "⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬⌬" << endl;
     int v1 = 0, v2 = 0;
     cout << "Please input two integers." << endl;

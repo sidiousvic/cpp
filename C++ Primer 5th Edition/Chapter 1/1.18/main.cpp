@@ -1,15 +1,13 @@
 //
 //  main.cpp
-//  1.17
+//  1.18
 //
-//  Created by VIC SIDIOUS on 2020/01/07.
+//  Created by VIC SIDIOUS on 2020/01/08.
 //  Copyright © 2020 SIDIOUSVIC. All rights reserved.
 //
-//Exercise 1.17: What happens in the program presented in this section if the
-//input values are all equal? What if there are no duplicated values?
-
-// If values are all equal, nothing will happen—because we are only printing something if the current value is not the same.
-// If there are no duplicated values, the values are printed as all having occurred 1 time.
+//Exercise 1.18: Compile and run the program from this section giving it only
+//equal values as input. Run it again giving it values in which no number is
+//repeated.
 
 #include <iostream>
 int main()
